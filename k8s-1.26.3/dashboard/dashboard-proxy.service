@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/usr/local/script/dashboard/dashboard-proxy.sh
+ExecStart=/etc/systemd/system/kube.dashboard/dashboard-proxy.sh
 
 [Install]
 WantedBy=multi-user.target
