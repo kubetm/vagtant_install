@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-ExecStart=/root/dashboard-proxy.sh
+ExecStart=/usr/local/script/dashboard/dashboard-proxy.sh
 
 [Install]
 WantedBy=multi-user.target
