@@ -1,0 +1,10 @@
+[Unit]
+Description=Dashboard Proxy
+After=network.target
+
+[Service]
+Type=simple
+ExecStart=/root/dashboard-proxy.sh
+
+[Install]
+WantedBy=multi-user.target
